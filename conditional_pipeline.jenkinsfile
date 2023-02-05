@@ -16,7 +16,7 @@ pipeline {
       
         stage('color log feature') {
            when {
-              branch "feat/*"
+              branch "feat"
            }
           steps {
             sh "echo '\033[35mlog\033\033feature!\033'"
